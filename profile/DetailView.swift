@@ -11,7 +11,7 @@ struct DetailView: View {
         VStack {
             Image(systemName: "person.crop.circle.fill")
                 .resizable()
-                .frame(width: 300, height: 300)
+                .frame(width: 200, height: 200)
                 .padding(.bottom)
             
             Text(" Born in Almaty in 2006, Sugirbay Dastan is a talented software developer with a passion for creating innovative solutions.")

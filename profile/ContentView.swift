@@ -18,6 +18,8 @@ struct ContentView: View {
                 Text("Sugirbay Dastan")
                     .font(.headline)
                 
+                Spacer()
+                
                 HStack(spacing: 24) {
                     VStack {
                         Image(systemName: "calendar")
@@ -32,10 +34,11 @@ struct ContentView: View {
                         Text("350 followers")
                     }
                 }
+                Spacer()
+                NavigationLink("View Detail", destination: DetailView())
             }
             .padding()
-        
-            NavigationLink("View Detail", destination: DetailView())
+
         }
     }
 }
